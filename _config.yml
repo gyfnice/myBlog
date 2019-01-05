@@ -74,11 +74,13 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
-  
-# Schemes
+#  
+## Schemes
 scheme: Mist
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/gyfnice/gyfnice.github.io.git
+  branch: master
